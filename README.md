@@ -1,7 +1,7 @@
 # Log-Analysis-Tools-CLI
 - In this repository there is a brief overview of the CLI tools used in log analysis
 
--While command-line log analysis offers powerful capabilities, it might only suit some scenarios, especially when dealing with vast and complex log datasets. A dedicated log analysis solution, like the Elastic 
+- While command-line log analysis offers powerful capabilities, it might only suit some scenarios, especially when dealing with vast and complex log datasets. A dedicated log analysis solution, like the Elastic 
  (ELK) Stack or Splunk, can be more efficient and offer additional log analysis and visualization features. However, the command line remains essential for quick and straightforward log analysis tasks.
 
 ## ➡️ cat 
