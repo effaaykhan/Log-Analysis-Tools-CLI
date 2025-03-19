@@ -113,7 +113,7 @@ grep -n "admin" file.log
 ```
 - Lastly, we can invert our command using the ```-v``` option only to select lines that do not contain the specified pattern or keyword(s). This can be useful for quickly filtering out unwanted or irrelevant lines from log files. For example, if we're not interested in any log entries that hit the ```/index.php``` page, we can run the following command to filter it out:
 ```
-grep -v "/index.php" apache.log | grep "203.64.78.90"
+grep -v "/index.php" file.log | grep "203.64.78.90"
 ```
 - In the above command, we filtered out the ```index.php``` page and piped the output into another grep command that only pulled log entries that contained the IP address ```203.64.78.90```
   
